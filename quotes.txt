@@ -1,0 +1,9 @@
+# One quote per line. Optional author after " — ".
+# Lines starting with # and blank lines are ignored.
+# Quote 1 goes out on Jan 1, quote 2 on Jan 2, and so on.
+
+You are someone's reason to smile today. 🌸
+Good morning, sunshine! The world is better with you in it. ☀️
+Be the kind of person your dog thinks you are. 🐶
+Little by little, a little becomes a lot. 🌱
+You've survived 100% of your bad days so far. 💪
