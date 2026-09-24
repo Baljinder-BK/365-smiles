@@ -7,7 +7,7 @@ A cute quote on my phone every morning, one for each day of the year.
    hard-to-guess name, e.g. `sunny-quotes-8f3k2x` (topics are public if guessed).
 2. In this repo: **Settings → Secrets and variables → Actions → New secret**
    named `NTFY_TOPIC` with that topic name.
-3. **Actions → Morning quote → Run workflow** to test. 🎉
+3. **Actions → Morning quote → Run workflow** to test.
 
 ## Adding quotes
 Edit `quotes.txt`, one per line. Aim for 365 (366 for leap years; it wraps
