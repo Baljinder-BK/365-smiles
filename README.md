@@ -1,4 +1,4 @@
-# ☀️ Morning Quotes
+# Morning Quotes
 
 A cute quote on my phone every morning, one for each day of the year.
 
