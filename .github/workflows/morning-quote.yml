@@ -1,0 +1,19 @@
+name: Morning quote
+
+on:
+  schedule:
+    # Cron times are UTC. 12:00 UTC = 8am Eastern (summer), 7am (winter).
+    - cron: "0 12 * * *"
+  workflow_dispatch: # lets you hit "Run workflow" to test anytime
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python send_quote.py
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
